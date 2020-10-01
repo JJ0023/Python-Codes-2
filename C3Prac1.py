@@ -16,6 +16,7 @@ input = '''
 
 stuff = ET.fromstring(input)
 lst = stuff.findall('users/user')
+#Changes by jeevan0023
 lsti = lst
 print('User Count:',len(lst))
 #print('User Count:',len(lst)) is used for user count
