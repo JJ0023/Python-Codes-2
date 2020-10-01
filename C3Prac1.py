@@ -19,6 +19,7 @@ lst = stuff.findall('users/user')
 lsti = lst
 print('User Count:',len(lst))
 #print('User Count:',len(lst)) is used for user count
+print("Multiple comment lines skipped by Bishal")
 for item in lst:
     print('Name:', item.find('name').text)
     print('ID:', item.find('id').text)
