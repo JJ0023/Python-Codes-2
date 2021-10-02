@@ -16,3 +16,4 @@ print('User Count:',len(lst))
 for item in lst:
     count = count + int(item.find('count').text)
 print(count)
+print("count times two"+count*2)
