@@ -19,11 +19,9 @@ lst = stuff.findall('users/user')
 #Changes by jeevan0023
 lsti = lst
 print('User Count:',len(lst))
-#print('User Count:',len(lst)) is used for user count
-print("Multiple comment lines skipped by Bishal")
+
 for item in lst:
     print('Name:', item.find('name').text)
     print('ID:', item.find('id').text)
     print('Attribute:' , item.get("x"))
 
-print("changes by pravakar")
