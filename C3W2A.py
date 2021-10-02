@@ -7,4 +7,4 @@ for line in handler:
     for i in y:
         sum = sum + int(i)
 print(sum)
-print("changes by neha")
+print("Sum times two = " + sum*2)
